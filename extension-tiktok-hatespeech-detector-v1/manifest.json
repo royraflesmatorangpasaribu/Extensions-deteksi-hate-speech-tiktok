@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "TikTok Hate Speech Detector Extension V1.0",
+    "version": "1.0",
+    "description": "Detect hate speech in comments TikTok",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png"
+      }
+    },
+    "permissions": ["storage", "tabs", "scripting", "http://127.0.0.1/*"],
+    "host_permissions": ["https://www.tiktok.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    }  
+  }
+  

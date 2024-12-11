@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hate Speech Detector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon16.png" alt="Shield Icon" class="icon">
+      <h1>Deteksi Hate Speech</h1>
+    </div>
+    <p>Analisis komentar TikTok.</p>
+
+    <div class="switch-container">
+      <label class="toggle-switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <p id="status" class="off">Tidak Aktif</p>
+  
+    <div class="legend">
+      <h2>Keterangan Probabilitas Prediksi:</h2>
+      <ul>
+        <li><span class="legend-color" style="background-color: #BDBDBD;"></span>Sangat Kecil [0.50,0.60)</li>
+        <li><span class="legend-color" style="background-color: #FFD54F;"></span>Kecil [0.60,0.70)</li>
+        <li><span class="legend-color" style="background-color: #FF7043;"></span>Sedang [0.70,0.80)</li>
+        <li><span class="legend-color" style="background-color: #ff0000;"></span>Tinggi [0.80,0.90)</li>
+        <li><span class="legend-color" style="background-color: #860909;"></span>Sangat Tinggi [0.90-1.00]</li>
+      </ul>
+    </div>
+
+    <footer>Powered by Naive Bayes</footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
