@@ -8,7 +8,7 @@ Plugin ini digunakan untuk mendeteksi konten hate speech pada kolom komentar Tik
 Clone repository ini ke dalam mesin lokal Anda menggunakan perintah berikut:
 
 ```bash
-git clone https://github.com/royraflesmatorangpasaribu/Extensions-deteksi-hate-speech-tiktok.git
+git clone https://github.com/royraflesmatorangpasaribu/extensions-deteksi-hate-speech-tiktok.git
 ```
 
 ### 2. Instalasi Dependensi
