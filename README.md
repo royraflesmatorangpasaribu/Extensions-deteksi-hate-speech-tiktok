@@ -12,6 +12,7 @@ git clone https://github.com/royraflesmatorangpasaribu/extensions-deteksi-hate-s
 ```
 
 ### 2. Instalasi Dependensi
+Pastikan sudah memiliki python versi 3.11.4 jika tidak ada silahkan download : https://www.python.org/downloads/release/python-3114/
 Setelah repository berhasil di-clone, masuk ke dalam direktori proyek (api-extension-hatespeech-detector-v1) dan install semua dependensi yang diperlukan dengan perintah:
 ```bash
 pip install -r requirements.txt
