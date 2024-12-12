@@ -1,7 +1,8 @@
-python==3.11.4
 requests==2.31.0
 fastapi
 uvicorn
 nltk
 jmespath
 loguru
+scikit-learn
+sastrawi
