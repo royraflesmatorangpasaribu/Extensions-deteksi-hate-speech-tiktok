@@ -44,11 +44,11 @@ Di halaman Extensions, aktifkan opsi **Developer mode** yang ada di pojok kanan 
 
 ### 6. Muat Ekstensi Unpacked
 - Klik tombol **Load unpacked**.
-- Pilih folder yang berisi file ekstensi Anda.
+- Pilih folder yang berisi file ekstensi (extension-tiktok-hatespeech-detector-v1).
 - Setelah memilih folder, ekstensi akan langsung dimuat dan ditambahkan ke daftar ekstensi yang aktif di browser Anda.
 
 ### 7. Menjalankan API
-Setelah semuanya terinstal, jalankan API menggunakan Uvicorn dengan perintah berikut:
+Setelah semuanya terinstal, jalankan API (api-extension-hatespeech-detector-v1) menggunakan Uvicorn dengan perintah berikut:
 ```bash
 uvicorn app:app --reload
 ```
