@@ -4,5 +4,5 @@ uvicorn
 nltk
 jmespath
 loguru
-scikit-learn
+scikit-learn==1.5.2
 sastrawi
